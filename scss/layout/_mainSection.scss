@@ -27,6 +27,7 @@
     &__stars{
         margin-right: 4px;
         color: rgb(255, 208, 0);
+        margin: 10px 0 30px;
         
     }
     &__comments{
@@ -35,7 +36,8 @@
     &__conditions{
         font-weight: bold;
         display: flex;
-        justify-content: space-between
+        justify-content: space-between;
+        align-items: flex-end;
     }
     &__price{
         color:$buttonsColor;
@@ -113,8 +115,12 @@
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        
-       
+    }
+    &__minus{
+        margin: 0 10px;
+    }
+    &__plus{
+        margin: 0 10px;
     }
     &__button{
         width: 250px;
