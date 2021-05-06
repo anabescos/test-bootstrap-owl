@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <script src="https://kit.fontawesome.com/d6db27f241.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/main.css" />
+
+
+
+    <title>Práctica 2 - bootstrap & Owl carousel</title>
+</head>
+
+<body>
+    <main>
+        <div class="container page">
+            <!-- Owl carousel -->
+            <div class="testimonial_carousel_section p-60 owl-carousel owl-theme">
+                <div class="profile_card ">
+                    <div class="img-area">
+                        <img src="../images/1.jpg" alt="Adidas trainers">
+                    </div>
+                    <div class="img-area">
+                        <img src="../images/2.jpg" alt="Adidas trainers">
+                    </div>
+                    <div class="img-area">
+                        <img src="../images/1.jpg" alt="Adidas trainers">
+                    </div>
+                    <div class="img-area">
+                        <img src="../images/2.jpg" alt="Adidas trainers">
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="addBasket">
+                <p class="addBasket__heading">
+                    <span class="addBasket__brand">Nike</span>
+                    <small class="addBasket__share">Compartir: <i class="fab fa-facebook-square"></i><i
+                            class="fab fa-instagram"></i><i class="fab fa-twitter-square"></i> </small>
+                </p>
+                <h2 class="addBasket__title">Nike Air Force 1´07 - Zapatillas deportivas</h2>
+                <div class="addBasket__reviews">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <small class="addBasket__comments">13 comentarios</small>
+                </div>
+                <p class="addBasket__conditions">
+                    <span class="addBasket__price">98,99€</span>
+                    <span class="addBasket__price addBasket__price--crossedOut">154,99€</span>
+                    <span class="addBasket__shipping">Envío gratis</span>
+                    <small class="addBasket__home">Recíbelo en 48 horas</small>
+                </p>
+                <p class="addBasket__sellerInfo">
+                    <small class="addBasket__soldBy">Vendido por <span class="addBasket__blue">Zapaterías
+                            López</span></small>
+                    <small class="addBasket__shopsInfo">10 tiendas vendesn este producto <span
+                            class="addBasket__blue">Compara precios >></span></small>
+                </p>
+
+                <div class="addBasket__line"></div>
+                <p class="addBasket__features">
+                    Color:
+                <div class="addBasket__square"></div>
+                <div class="addBasket__square"></div>
+                <div class="addBasket__square"></div>
+                <div class="addBasket__square"></div>
+                <div class="addBasket__square"></div>
+                </p>
+            </section>
+
+            <p class="addBasket__features">
+                Talla:
+            <div class="addBasket__square">36</div>
+            <div class="addBasket__square">37</div>
+            <div class="addBasket__square">38</div>
+            <div class="addBasket__square">39</div>
+            <div class="addBasket__square">40</div>
+            <div class="addBasket__square">41</div>
+            <div class="addBasket__square">42</div>
+            <small class="addBasket__light">Guía de tallas</small>
+            </p>
+            <p class="addBasket__features">
+                Cantidad:
+            <div class="minus"></div>
+            <div class="addBasket__square addBasket__square--boldness">1</div>
+            <div class="plus"></div>
+
+            </p>
+            <button class="addBasket__button">Añadir a la cesta</button>
+            <p class="addBasket__wish"><i class="far fa-heart"></i><small>Añadir a mi lista de deseos</small></p>
+            </section>
+            <!-- Nav -->
+            <nav class="nav">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs nav__tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#description" aria-controls="description" role="tab"
+                            data-toggle="tab">Descripción</a></li>
+                    <li role="presentation"><a href="#shipping" aria-controls="shipping" role="tab"
+                            data-toggle="tab">Envío y entrega</a></li>
+                    <li role="presentation"><a href="#returns" aria-controls="returns" role="tab"
+                            data-toggle="tab">Devoluciones</a></li>
+                    <li role="presentation"><a href="#reviews" aria-controls="reviews" role="tab"
+                            data-toggle="tab">Valoraciones</a></li>
+                    <li role="presentation"><a href="#seller" aria-controls="seller" role="tab"
+                            data-toggle="tab">Vendedor</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content nav__tabsContent">
+                    <div role="tabpanel" class="tab-pane active" id="description">
+                        <p class="nav__description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+                            vel saepe, nesciunt aspernatur atque dolorum dolorem neque praesentium magnam hic eligendi
+                            quia ipsum ipsam natus laudantium minima nemo sit suscipit.
+                        </p>
+                        <h3 class="nav__subtitle">Especificaciones técnicas</h3>
+                        <ul class="nav__list">
+                            <li class="nav__listItem">Lorem ipsum</li>
+                            <li class="nav__listItem">Lorem ipsum</li>
+                            <li class="nav__listItem">Lorem ipsum</li>
+                            <li class="nav__listItem">Lorem ipsum</li>
+                            <li class="nav__listItem">Lorem ipsum</li>
+                            <li class="nav__listItem">Lorem ipsum</li>
+                            <li class="nav__listItem">Lorem ipsum</li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="shipping">
+                        <p class="nav__description"> lasd asjdkaslkdj kasdjalskdj asdkas</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="returns">
+                        <p class="nav__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                            recusandae nemo adipisci dicta.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="reviews">
+                        <p class="nav__description">Sed exercitationem debitis quam, impedit repudiandae atque placeat
+                            sequi sapiente ipsa quaerat laboriosam id amet adipisci explicabo porro nulla perspiciatis
+                            non perferendis?</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="seller">
+                        <p class="nav__description">Lorem ipsum.</p>
+                    </div>
+                </div>
+
+            </nav>
+            <section class="longCarousel">
+                <h2 class="longCarousel__title">Otros productos de ropa deportiva de mujer que te pueden interesar</h2>
+                <!-- Owl carousel -->
+                <div class="testimonial_carousel_section p-60 owl-carousel owl-theme">
+                    <div class="profile_card">
+                        <div class="img-area">
+                            <img src="../images/1.jpg" alt="Adidas trainers">
+                        </div>
+                        <div class="img-text">
+                            <h2>Adidas Lorem ipsum dolor sit amet</h2>
+                            <hr>
+                            <small>Adidas</small>
+                            <hr>
+                            <p>50,20€</p>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                            <small>(13)</small>
+
+                        </div>
+                    </div>
+                    <div class="profile_card">
+                        <div class="img-area">
+                            <img src="../images/2.jpg" alt="Adidas trainers">
+                        </div>
+                        <div class="img-text">
+                            <h2>Adidas Lorem ipsum dolor sit amet</h2>
+                            <hr>
+                            <small>Adidas</small>
+                            <hr>
+                            <p>50,20€</p>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                            <small>(13)</small>
+                        </div>
+                    </div>
+                    <div class="profile_card">
+                        <div class="img-area">
+                            <img src="../images/3.jpg" alt="Adidas trainers">
+                        </div>
+                        <div class="img-text">
+                            <h2>Adidas Lorem ipsum dolor sit amet</h2>
+                            <hr>
+                            <small>Adidas</small>
+                            <hr>
+                            <p>50,20€</p>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                            <small>(13)</small>
+                        </div>
+                    </div>
+                    <div class="profile_card">
+                        <div class="img-area">
+                            <img src="../images/4.jpg" alt="Adidas trainers">
+                        </div>
+                        <div class="img-text">
+                            <h2>Adidas Lorem ipsum dolor sit amet</h2>
+                            <hr>
+                            <small>Adidas</small>
+                            <hr>
+                            <p>50,20€</p>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                            <small>(13)</small>
+                        </div>
+                    </div>
+                    <div class="profile_card">
+                        <div class="img-area">
+                            <img src="../images/5.jpg" alt="Adidas trainers">
+                        </div>
+                        <div class="img-text">
+                            <h2>Adidas Lorem ipsum dolor sit amet</h2>
+                            <hr>
+                            <small>Adidas</small>
+                            <hr>
+                            <p>50,20€</p>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                            <small>(13)</small>
+                        </div>
+                    </div>
+                    <div class="profile_card">
+                        <div class="img-area">
+                            <img src="../images/6.jpg" alt="Adidas trainers">
+                        </div>
+                        <div class="img-text">
+                            <h2>Adidas Lorem ipsum dolor sit amet</h2>
+                            <hr>
+                            <small>Adidas</small>
+                            <hr>
+                            <p>50,20€</p>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                            <small>(13)</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="../js/owl.carousel.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
