@@ -1,9 +1,11 @@
-$defaultFontSize: 16;
+$defaultFontSize: 16px;
 
 //colors
-// $mainColor: rgb(103, 103, 104);
-// $buttonsColor: rgb(255, 166, 0);
-// $secondaryColor:rgb(107, 162, 214);
+$mainColor: rgb(103, 103, 104);
+$lightColor: rgb(146, 145, 145);
+$buttonsColor: rgb(255, 0, 64);
+$secondaryColor:rgb(55, 96, 209);
+$titleColor:black;
 //breakpoints
 $tablet: 768px;
 $desktop: 1280px;

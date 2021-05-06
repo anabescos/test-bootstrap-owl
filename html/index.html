@@ -5,104 +5,114 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
         integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
         integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
-    <script src="https://kit.fontawesome.com/d6db27f241.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/main.css" />
-
-
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://kit.fontawesome.com/d6db27f241.js" crossorigin="anonymous">
+    </script>
 
     <title>Práctica 2 - bootstrap & Owl carousel</title>
 </head>
 
 <body>
-    <main>
+    <main class="main">
         <div class="container page">
-            <!-- Owl carousel -->
-            <div class="testimonial_carousel_section p-60 owl-carousel owl-theme">
-                <div class="profile_card ">
-                    <div class="img-area">
-                        <img src="../images/1.jpg" alt="Adidas trainers">
+            <div class="row">
+                <div class="box col-xs-12 col-sm-6">
+                    <div class="testimonial_carousel_section p-60 owl-carousel owl-theme carousel">
+                        <div class="profile_card carousel__card">
+                            <div class="img-area carousel__imgContainer">
+                                <img src="../images/3.jpg" alt="Adidas trainers">
+                            </div>
+                            <div class="img-area carousel__imgContainer">
+                                <img src="../images/3.jpg" alt="Adidas trainers">
+                            </div>
+                            <div class="img-area carousel__imgContainer">
+                                <img src="../images/3.jpg" alt="Adidas trainers">
+                            </div>
+                            <div class="img-area carousel__imgContainer">
+                                <img src="../images/3.jpg" alt="Adidas trainers">
+                            </div>
+                        </div>
                     </div>
-                    <div class="img-area">
-                        <img src="../images/2.jpg" alt="Adidas trainers">
-                    </div>
-                    <div class="img-area">
-                        <img src="../images/1.jpg" alt="Adidas trainers">
-                    </div>
-                    <div class="img-area">
-                        <img src="../images/2.jpg" alt="Adidas trainers">
-                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <section class="addBasket">
+                        <p class="addBasket__heading">
+                            <span class="addBasket__brand">Nike</span>
+                            <small class="addBasket__share">Compartir: <i
+                                    class="addBasket__social fab fa-facebook-square"></i><i
+                                    class="addBasket__social fab fa-instagram"></i><i
+                                    class="addBasket__social fab fa-twitter-square"></i> </small>
+                        </p>
+                        <h2 class="addBasket__title">Nike Air Force 1´07 - Zapatillas deportivas</h2>
+                        <div class="addBasket__reviews">
+                            <i class="addBasket__stars fas fa-star"></i>
+                            <i class="addBasket__stars fas fa-star"></i>
+                            <i class="addBasket__stars fas fa-star"></i>
+                            <i class="addBasket__stars fas fa-star"></i>
+                            <i class="addBasket__stars addBasket__stars--empty fas fa-star"></i>
+                            
+                            <small class="addBasket__comments">13 comentarios</small>
+                        </div>
+                        <p class="addBasket__conditions">
+                            <span class="addBasket__price">98,99€</span>
+                            <span class="addBasket__crossedOut">154,99€</span>
+                            <span class="addBasket__shipping">Envío GRATIS</span>
+                            <small class="addBasket__home">Recíbelo en 48 horas</small>
+                        </p>
+                        <p class="addBasket__sellerInfo">
+                            <small class="addBasket__soldBy">Vendido por <span class="addBasket__blue">Zapaterías López</span></small>
+                            <small class="addBasket__shopsInfo">10 tiendas vendesn este producto <span class="addBasket__blue">Compara precios >></span></small>
+                        </p>
+
+                        <div class="addBasket__line"></div>
+                        <div class="addBasket__features">
+                            Color:
+                            <div class="addBasket__square"></div>
+                            <div class="addBasket__square addBasket__square--second"></div>
+                            <div class="addBasket__square addBasket__square--third"></div>
+                            <div class="addBasket__square addBasket__square--fourth"></div>
+                            <div class="addBasket__square addBasket__square--fifth"></div>
+                        </div>
+
+                        <div class="addBasket__features">
+                            Talla:
+                        <div class="addBasket__square addBasket__square--gap">36</div>
+                        <div class="addBasket__square">37</div>
+                            <div class="addBasket__square">38</div>
+                            <div class="addBasket__square">39</div>
+                            <div class="addBasket__square">40</div>
+                            <div class="addBasket__square">41</div>
+                            <div class="addBasket__square">42</div>
+                            <small class="addBasket__light">Guía de tallas</small>
+                        </div>
+                        <div class="addBasket__features addBasket__features--space">
+                            Cantidad:
+                            <div class="minus glyphicon glyphicon-minus"></div>
+                            <div class="addBasket__square addBasket__square--boldness">1</div>
+                            <div class="plus glyphicon glyphicon-plus"></div>
+
+                        </div>
+                        <div class="addBasket__buttonWrapper"><button class="btn addBasket__button">Añadir a la cesta</button></div>
+                        <p class="addBasket__wish">
+                            <i class="far fa-heart"></i><small>Añadir a mi lista de
+                                deseos</small>
+                        </p>
+                    </section>
                 </div>
             </div>
-
-
-            <section class="addBasket">
-                <p class="addBasket__heading">
-                    <span class="addBasket__brand">Nike</span>
-                    <small class="addBasket__share">Compartir: <i class="fab fa-facebook-square"></i><i
-                            class="fab fa-instagram"></i><i class="fab fa-twitter-square"></i> </small>
-                </p>
-                <h2 class="addBasket__title">Nike Air Force 1´07 - Zapatillas deportivas</h2>
-                <div class="addBasket__reviews">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                        class="fas fa-star"></i><i class="fas fa-star"></i>
-                    <small class="addBasket__comments">13 comentarios</small>
-                </div>
-                <p class="addBasket__conditions">
-                    <span class="addBasket__price">98,99€</span>
-                    <span class="addBasket__price addBasket__price--crossedOut">154,99€</span>
-                    <span class="addBasket__shipping">Envío gratis</span>
-                    <small class="addBasket__home">Recíbelo en 48 horas</small>
-                </p>
-                <p class="addBasket__sellerInfo">
-                    <small class="addBasket__soldBy">Vendido por <span class="addBasket__blue">Zapaterías
-                            López</span></small>
-                    <small class="addBasket__shopsInfo">10 tiendas vendesn este producto <span
-                            class="addBasket__blue">Compara precios >></span></small>
-                </p>
-
-                <div class="addBasket__line"></div>
-                <p class="addBasket__features">
-                    Color:
-                <div class="addBasket__square"></div>
-                <div class="addBasket__square"></div>
-                <div class="addBasket__square"></div>
-                <div class="addBasket__square"></div>
-                <div class="addBasket__square"></div>
-                </p>
-            </section>
-
-            <p class="addBasket__features">
-                Talla:
-            <div class="addBasket__square">36</div>
-            <div class="addBasket__square">37</div>
-            <div class="addBasket__square">38</div>
-            <div class="addBasket__square">39</div>
-            <div class="addBasket__square">40</div>
-            <div class="addBasket__square">41</div>
-            <div class="addBasket__square">42</div>
-            <small class="addBasket__light">Guía de tallas</small>
-            </p>
-            <p class="addBasket__features">
-                Cantidad:
-            <div class="minus"></div>
-            <div class="addBasket__square addBasket__square--boldness">1</div>
-            <div class="plus"></div>
-
-            </p>
-            <button class="addBasket__button">Añadir a la cesta</button>
-            <p class="addBasket__wish"><i class="far fa-heart"></i><small>Añadir a mi lista de deseos</small></p>
-            </section>
             <!-- Nav -->
-            <nav class="nav">
+            <nav class="nav row">
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs nav__tabs" role="tablist">
                     <li role="presentation" class="active"><a href="#description" aria-controls="description" role="tab"
@@ -152,13 +162,14 @@
                 </div>
 
             </nav>
-            <section class="longCarousel">
+            <!-- Owl carousel section -->
+            <section class="longCarousel row">
                 <h2 class="longCarousel__title">Otros productos de ropa deportiva de mujer que te pueden interesar</h2>
                 <!-- Owl carousel -->
                 <div class="testimonial_carousel_section p-60 owl-carousel owl-theme">
                     <div class="profile_card">
                         <div class="img-area">
-                            <img src="../images/1.jpg" alt="Adidas trainers">
+                            <img src="../images/5.jpg" alt="Adidas trainers">
                         </div>
                         <div class="img-text">
                             <h2>Adidas Lorem ipsum dolor sit amet</h2>
@@ -179,7 +190,7 @@
                     </div>
                     <div class="profile_card">
                         <div class="img-area">
-                            <img src="../images/2.jpg" alt="Adidas trainers">
+                            <img src="../images/6.jpg" alt="Adidas trainers">
                         </div>
                         <div class="img-text">
                             <h2>Adidas Lorem ipsum dolor sit amet</h2>
@@ -281,8 +292,14 @@
             </section>
         </div>
     </main>
-    <script src="../js/owl.carousel.js"></script>
-    <script src="../js/main.js"></script>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
 </body>
 
 </html>
