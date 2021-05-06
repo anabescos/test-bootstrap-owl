@@ -1,6 +1,15 @@
 // .main{
 //     margin-top: 50px;
 // }
+.container{
+    max-width: 1200px;
+}
+.carousel{
+    margin: 50px 0 0;
+    @include tablet{
+        margin: 100px 0 0;
+    }
+}
 .addBasket {
   margin-top: 50px;
   width: 100%;
@@ -151,7 +160,6 @@
     font-size: 12px;
   }
   &__list {
-    list-style-type: circle;
     padding-left:20px;
   }
   &__listItem {
@@ -160,9 +168,45 @@
   }
 }
 .longCarousel{
+   
+    // &__img{
+    //     @include desktop{
+    //         height: 50px;
+    //     }
+ 
+    // }
    &__title{
        text-align: center;
        font-size: 18px;
        color: $titleColor;
    }
+   &__subtitle{
+       font-size: 12px;
+       color: $titleColor;
+   }
+   &__line {
+    border-top: 0.5px solid $lightColor;
+ 
+  }
+  &__reviews{
+      display: flex;
+  }
+  &__star {
+      font-size: 8px;
+    margin-right: 4px;
+    color: rgb(255, 208, 0);
+    margin: 10px 0 30px;
+  }
+  &__comments {
+      margin: 10px 0 0 10px;
+    color: $lightColor;
+    font-size: 8px;
+  }
+  &__price {
+    color: $buttonsColor;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
 }
